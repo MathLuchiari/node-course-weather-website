@@ -89,7 +89,8 @@ app.get('*', (req, res) => {
         title: "404",
         errorMessage: 'Page not found',
         name: 'Matheus Miranda Luchiari'
-    })})
+    })
+})
 
 app.listen(3000, () => {
     console.log("The server is up on port 3000")
